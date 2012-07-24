@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.ruby.railsprojects</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/rails-project/1">
+<<<<<<< HEAD
             <name>Auth</name>
+=======
+            <name>first_app</name>
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
         </data>
     </configuration>
 </project>

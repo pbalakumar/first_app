@@ -9,7 +9,11 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+<<<<<<< HEAD
 module Auth
+=======
+module FirstApp
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -39,9 +43,12 @@ module Auth
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
+<<<<<<< HEAD
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
 
+=======
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
     # Use SQL instead of Active Record's schema dumper when creating the database.
     # This is necessary if your schema can't be completely dumped by the schema dumper,
     # like if you have constraints or database-specific column types
@@ -51,7 +58,11 @@ module Auth
     # This will create an empty whitelist of attributes available for mass-assignment for all models
     # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
     # parameters by using an attr_accessible or attr_protected declaration.
+<<<<<<< HEAD
     config.active_record.whitelist_attributes = true
+=======
+    # config.active_record.whitelist_attributes = true
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
 
     # Enable the asset pipeline
     config.assets.enabled = true

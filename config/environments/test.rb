@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Auth::Application.configure do
+=======
+FirstApp::Application.configure do
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
   # Settings specified here will take precedence over those in config/application.rb
 
   # The test environment is used exclusively to run your application's

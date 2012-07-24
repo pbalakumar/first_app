@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 Auth::Application.routes.draw do
   resources :authentications
+=======
+FirstApp::Application.routes.draw do
+  resources :microposts
+
+  resources :users
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

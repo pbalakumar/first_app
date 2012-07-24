@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SQLite version 3.x
 #   gem install sqlite3
 #
@@ -8,11 +9,33 @@ development:
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
+=======
+# MySQL.  Versions 4.1 and 5.0 are recommended.
+# 
+# Install the MYSQL driver
+#   gem install mysql2
+#
+# Ensure the MySQL gem is defined in your Gemfile
+#   gem 'mysql2'
+#
+# And be sure to use new-style password hashing:
+#   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: first_app
+  pool: 5
+  username: root
+  password:
+  host: localhost
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
+<<<<<<< HEAD
   adapter: sqlite3
   database: db/test.sqlite3
   pool: 5
@@ -23,3 +46,23 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+=======
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: first_app
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: first_app
+  pool: 5
+  username: root
+  password:
+  host: localhost
+>>>>>>> 8067ff792f069941325833808a1109abc4b52de1
